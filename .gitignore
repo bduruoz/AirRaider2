@@ -17,9 +17,9 @@
 
 [Aa]ssets/AmplifyShaderEditor/
 [Aa]ssets/AmplifyStochasticNode/
-[Aa]ssets/Ludiq.Generated/
-[Aa]ssets/Ludiq.Peek/
-[Aa]ssets/Ludiq.PeekCore/
+[Aa]ssets/Ludiq/Ludiq.Generated/
+[Aa]ssets/Ludiq/Ludiq.Peek/
+[Aa]ssets/Ludiq/Ludiq.PeekCore/
 [Aa]ssets/Plugins/Demigiant/
 [Aa]ssets/Resources/BillingMode.json
 [Aa]ssets/Resources/DOTweenSettings.asset
