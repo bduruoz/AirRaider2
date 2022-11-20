@@ -20,9 +20,11 @@
 [Aa]ssets/Ludiq.Generated/
 [Aa]ssets/Ludiq/Ludiq.Peek/
 [Aa]ssets/Ludiq/Ludiq.PeekCore/
-[Aa]ssets/Plugins/Demigiant/
 [Aa]ssets/Resources/BillingMode.json
 [Aa]ssets/Resources/DOTweenSettings.asset
+[Aa]ssets/Plugins/Demigiant/
+[Aa]ssets/Plugins/Sirenix/
+
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 [Aa]ssets/AssetStoreTools*
