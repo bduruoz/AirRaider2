@@ -2,24 +2,22 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CanopeGlass
-  m_Shader: {fileID: 4800000, guid: a50d2f966c42a5f4dbeea7a8b81f343d, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_Name: Pixel5x5-FontMat
+  m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHABLEND_ON _COLORADDSUBDIFF_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - ALWAYS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -39,24 +37,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _EmissionColor:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 1ed77e706d9b8c6428fc9de8d1beaa09, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: eca450112836a8b4a866b485dcc4dafa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -71,51 +57,43 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ReflectionMap:
-        m_Texture: {fileID: 8900000, guid: d67b2e1b2160ad84ebeda227aff6d7bd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
+    - _BlendOp: 0
     - _BumpScale: 1
-    - _ChromaticAberration: 0.1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 1
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _Emission: 0
-    - _EmissionIntensity: 1.608
-    - _Float0: 1.04
-    - _Float1: 0
-    - _FresnelBias: 0.5
-    - _FresnelPower: 2
-    - _FresnelScale: 3
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 1
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0.3
-    - _Mode: 0
-    - _NegativeMask: 0
+    - _LightingEnabled: 0
+    - _Metallic: 0
+    - _Mode: 4
     - _OcclusionStrength: 1
-    - _Opacity: 0.4
     - _Parallax: 0.02
-    - _ReflectionIntensity: 1
-    - _SecondColorToggle: 0
-    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _UVSec: 0
-    - _ZWrite: 1
-    - __dirty: 0
+    - _ZWrite: 0
     m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0, g: 0.7047825, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0.19572586, b: 0.2924528, a: 1}
-    - _MainColor: {r: 0, g: 0.74509805, b: 1, a: 1}
-    - _ReflectionColor: {r: 0, g: 0.27562466, b: 0.4433962, a: 1}
-    - _SecondColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
